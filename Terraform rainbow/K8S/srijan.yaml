@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: srijan
+spec:
+  containers:
+  - name: s-netflix
+    image: devopsinsiders/netflix-clone
+    ports:
+    - containerPort: 80
+metadata:
+  name: srijan1
+spec:
+  containers:
+  - name: sri
+    image: devopsinsiders/todoapp-ui-new:v2
+    ports:
+    - containerPort: 80
